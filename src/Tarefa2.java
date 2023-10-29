@@ -7,7 +7,7 @@ public class Tarefa2 {
     }
     private static void nomesOrdenados() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("** Digite os nome - sexo de cada pessoa separados por vírgigula**");
+        System.out.println("** Digite nome - sexo de cada pessoa separados por vírgigula**");
         String nome = scanner.nextLine();
         String[] lseparadas = nome.split(",");
         List<String> listaDeNomesF = new ArrayList<>();
